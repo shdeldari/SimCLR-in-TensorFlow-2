@@ -4,7 +4,7 @@ import random
 import os
 from pandas import read_csv
 
-from utils.DataHelper import load_dataset, load_WISDM_dataset
+from DataHelper import load_dataset, load_WISDM_dataset
 
 
 def training_generator(data_path, dataset, steps_in, steps_out, batch_size, positive_samples=1, mode="train", aug=False):
